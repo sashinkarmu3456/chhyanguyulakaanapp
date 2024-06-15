@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LBEF\\Chhyanguyulakaan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD694E1-951D-4AEF-85CE-DCEE7BB8E0FA}|D:\\LBEF\\Chhyanguyulakaan|d:\\lbef\\chhyanguyulakaan\\admin\\admindash.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{BFD694E1-951D-4AEF-85CE-DCEE7BB8E0FA}|D:\\LBEF\\Chhyanguyulakaan|solutionrelative:admin\\admindash.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD694E1-951D-4AEF-85CE-DCEE7BB8E0FA}|D:\\praty\\Chhyanguyulakaan|D:\\LBEF\\Chhyanguyulakaan\\admin\\admindash.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{BFD694E1-951D-4AEF-85CE-DCEE7BB8E0FA}|D:\\praty\\Chhyanguyulakaan|solutionrelative:admin\\admindash.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Acer\\AppData\\Local\\Temp\\cnomnvky..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD694E1-951D-4AEF-85CE-DCEE7BB8E0FA}|D:\\praty\\Chhyanguyulakaan|D:\\LBEF\\Chhyanguyulakaan\\client\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BFD694E1-951D-4AEF-85CE-DCEE7BB8E0FA}|D:\\praty\\Chhyanguyulakaan|solutionrelative:client\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminDash.master",
+              "DocumentMoniker": "D:\\LBEF\\Chhyanguyulakaan\\Admin\\AdminDash.master",
+              "RelativeDocumentMoniker": "Admin\\AdminDash.master",
+              "ToolTip": "D:\\LBEF\\Chhyanguyulakaan\\Admin\\AdminDash.master",
+              "RelativeToolTip": "Admin\\AdminDash.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-15T10:14:54.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminDash.master",
+              "DocumentMoniker": "D:\\LBEF\\Chhyanguyulakaan\\Admin\\AdminDash.master",
+              "RelativeDocumentMoniker": "Admin\\AdminDash.master",
+              "ToolTip": "D:\\LBEF\\Chhyanguyulakaan\\Admin\\AdminDash.master",
+              "RelativeToolTip": "Admin\\AdminDash.master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAABsSURBVDhPY6AUMH779u0/lE0WABvg4\u002BMD5ZIGtmzZwsAEZZMNKDaAAeQFJyen/x/efwRjZDY\u002BDFIH0ovhgnVr10NZxAG4AUHBgSTRMACPBVJtBhmENRbQbSAEqBcGMEB3F1CclCnOTBQCBgYARqRkPz8YS3oAAAAASUVORK5CYIIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "WhenOpened": "2024-06-15T10:14:52.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SQLQuery3.sql ",
+              "DocumentMoniker": "C:\\Users\\Acer\\AppData\\Local\\Temp\\cnomnvky..sql",
+              "ToolTip": "SQLQuery3.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-06-15T09:53:54.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "D:\\LBEF\\Chhyanguyulakaan\\Client\\Login.aspx",
+              "RelativeDocumentMoniker": "Client\\Login.aspx",
+              "ToolTip": "D:\\LBEF\\Chhyanguyulakaan\\Client\\Login.aspx",
+              "RelativeToolTip": "Client\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFpSURBVDhPnZM9S8NgEMf/TXVJfB0cdKiQxcE6OVSdHSOiDkIXZ7\u002BAmk8Q8Qs4ioubL9GsDi5iRadMLoEWrEJBK9qApo161zwxpomiPwj3Eu7/3N2TZBDDdd33wP0RWZa5NlFA07Qg6kRVVRiGAUVRWCRV4GD/MMh8sbi0wDYqInHmjziOA13X2f\u002BXAEEiRDhCdHm2bSM/nofv\u002B2i1/CD7HRrHsqx2B1Rcfmli\u002BbQGeaeMwlUflN0KimcPqL59ntK5qhBJFE\u002BZd5gZ6uZkvTjCluLp43vcvqbfLHewVnrExkQvVscUTgoopvz6ZR3ZbPK6MtQBtf0bjZUcPK8ZRJEdUPsEtS1aj1rhpyGN9nSxM7BX5Uf4wgo/DR6Btk8Lo5mpgE4VdvumgfOah1nnCKZpBmVtaAQWELdAC9Ovn0IBY7Ifm/YzLuaHITqNwxcsROg2TiouvyDmcjK2CoNcLP6\u002BOIlfYpy0YgD4ANtBrSGAiU8IAAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-06-15T10:14:52.831Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

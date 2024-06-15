@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Default.master.cs" Inherits="_Default" %>
+<!DOCTYPE html>
+<html>
+  <head runat="server">
+    <title>CHYANGU:YU LAKAAN</title>
+    <link rel="stylesheet" href="css/allstyle.css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />
+    <asp:ContentPlaceHolder id="Contenthead" runat="server"></asp:ContentPlaceHolder>
+  </head>
+  <body>
+    <!-- Main navigation -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="Default.aspx">
+          <span></span> CHHYANGU:YU LAKAAN </a>
+        <!-- Main navigation items -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Default.aspx">Home <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Menu/Allproduct.aspx">All Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Client/ContactUs.aspx">Contact Us</a>
+            </li>
+          </ul>
+          <form runat="server" class="form-inline header-search-form my-2 my-lg-0">
+            <asp:Label ID="Labcart" runat="server" CssClass="navbar-brand" Font-Size="Smaller">
+              <img src="img/carticon24.png" />
+            </asp:Label>
+              <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <i id="admname" class="fa fa-user fa-fw"></i>
+                                <asp:Label ID="LabWelcome" runat="server" CssClass="navbar-brand" Text="Welcome" Font-Size="Smaller"></asp:Label>
+
+                  </a>
+                  <ul class="dropdown-menu dropdown-user">
+                    <li>
+                        <asp:HyperLink ID="Butlog" runat="server" CssClass="btn btn-primary my-2 my-sm-0" NavigateUrl="Client/Login.aspx">Login</asp:HyperLink>
+                    </li>
+                    <li class="divider"></li>
+                    <li>
+                        <asp:LinkButton ID="Butout" runat="server" CssClass="btn btn-primary my-2 my-sm-0" OnClick="Butout_Click1">Logout</asp:LinkButton>
+
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section id="SectionAbout" class="about-section">
+      <div class="colored-bg-container jumbotron-wrap">
+        <div class="container">
+          <div class="jumbotron px-0">
+            <h2>About</h2>
+            <p class="lead"> <h4 style="color:white;">Welcome to Chhyangu:Yu Lakaan</h4></p>
+            <p class="lead"> At Chhyangu:Yu Lakaan, we believe that quality craftsmanship and classic design never go out of style. Our company has been dedicated to creating premium leather shoes that stand the test of time. Our commitment to excellence is reflected in every stitch, every cut, and every pair of shoes that leave our workshop.</p>
+            <p class="lead"> <h4 style="color:white;">Our Story</h4></p>
+            <p class="lead"> Chhyangu:Yu Lakaan was founded with a singular vision: to craft shoes that blend traditional techniques with modern sensibilities. Our owner, Mr Jimmy, grew up in a family of shoemakers and inherited a passion for leather and a dedication to perfection. Over the years, we have evolved from a small workshop into a renowned brand known for our exceptional quality and timeless designs. </p>
+            <p class="lead"> <h4 style="color:white;">Craftsmanship</h4></p>
+            <p class="lead"> Our shoes are handcrafted by skilled artisans who use only the finest materials. From selecting the highest-grade leathers to meticulously assembling each pair, our process is a labor of love. We employ traditional methods passed down through generations, ensuring that every shoe is not only beautiful but also durable and comfortable.</p>
+            <p class="lead"> <h4 style="color:white;">Our Collection</h4></p>
+            <p class="lead"> Explore our diverse collection, which includes:</p>
+            <p class="lead"> Classic Oxfords: Perfect for formal occasions and business settings, our Oxfords are the epitome of elegance.</p>
+            <p class="lead"> Casual Loafers: Combining comfort with style, our loafers are ideal for everyday wear.</p>
+            <p class="lead"> Stylish Boots: Rugged yet refined, our boots are designed to take you from the city streets to the great outdoors.</p>
+            <p class="lead"> Custom Creations: For those seeking something truly unique, our bespoke service allows you to design your own pair of shoes, tailored to your exact specifications.</p>
+            <p class="lead"> <h4 style="color:white;">Sustainability</h4></p>
+            <p class="lead"> At Chhyangu:Yu Lakaan, we are committed to sustainable practices. We source our leathers from environmentally responsible tanneries and strive to minimize waste throughout our production process. Our shoes are designed to be long-lasting, reducing the need for frequent replacements and contributing to a more sustainable fashion industry.</p>
+            <p class="lead"> <h4 style="color:white;">Our Promise</h4></p>
+            <p class="lead"> When you purchase a pair of Chhyangu:Yu Lakaan shoes, you’re not just buying footwear; you’re investing in a piece of art that embodies quality, style, and tradition. We stand behind our products with a satisfaction guarantee, ensuring that every customer is delighted with their purchase.</p>
+            <p class="lead"> <h4 style="color:white;">Visit Us</h4></p>
+            <p class="lead"> We invite you to explore our collection online or visit our flagship store in a famous shopping center, where you can experience the craftsmanship and quality of our shoes firsthand. Our knowledgeable staff is always on hand to assist you in finding the perfect pair.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Main Navigation Section -->
+    <asp:ContentPlaceHolder id="Contentbody" runat="server"></asp:ContentPlaceHolder>
+    <!-- Bootcamp JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

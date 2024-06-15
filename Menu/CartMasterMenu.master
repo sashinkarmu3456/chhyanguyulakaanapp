@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="CartMasterMenu.master.cs" Inherits="Menu_Feature" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head runat="server">
+    <title>CHYANGU:YU LAKAAN - Main Menu</title>
+    <link rel="stylesheet" href="../css/allstyle.css" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css' />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+    <asp:ContentPlaceHolder id="ContentMenuhead" runat="server"></asp:ContentPlaceHolder>
+  </head>
+  <body>
+            <form id="form2" runat="server">
+
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="../Default.aspx">
+          <span>CHYANGU:YU LAKAAN</span>
+        </a>
+        <!-- Main navigation items -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../Default.aspx">Home</a>
+            </li>
+            <li class=" nav-item">
+              <a class="nav-link" href="Allproduct.aspx">All Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Offers.aspx">Offers</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-top-links navbar-right">
+          
+               <li class="nav-item mr-2">
+   <asp:HyperLink ID="HyperLink4" runat="server" Text="Show Cart" CssClass="btn btn-info" NavigateUrl="~/Menu/Addtocart.aspx"></asp:HyperLink>
+ </li>
+               <li class="nav-item mr-2">
+                  <asp:HyperLink ID="HyperLink2" runat="server" Text="Continue Shopping" CssClass="btn btn-info" NavigateUrl="~/Menu/Allproduct.aspx"></asp:HyperLink>
+ </li>
+                            <li class="nav-item mr-2">
+                  <asp:HyperLink ID="HyperLink3" runat="server" Text="Checkout" CssClass="btn btn-success" NavigateUrl="~/Menu/Order.aspx"></asp:HyperLink>
+</li>
+                                          <li class="nav-item mr-2">
+ <asp:Label ID="Label6" runat="server" Text="Your Product in Cart :- " Font-Bold="True" ForeColor="WHite"></asp:Label>
+ <asp:Label ID="Labcartitems" runat="server" Text="Label" Font-Bold="True" ForeColor="WHite">0</asp:Label></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Jumbtron / Slider -->
+    <div class="jumbotron-wrap colored-bg-container" style=" height:1000px">
+        
+        <asp:ContentPlaceHolder id="ContentMenu" runat="server"></asp:ContentPlaceHolder>
+    </div>
+      </form>
+  </body>
+</html>

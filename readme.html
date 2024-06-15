@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Setup and Configuration</title>
+</head>
+<body>
+    <h1>List of (admin) user names and passwords</h1>
+    <p><strong>Username:</strong> admin@cyl.com</p>
+    <p><strong>Password:</strong> admin</p>
+
+    <h1>Summary to Setup & Configure Your Website</h1>
+    <ol>
+        <li>The software is developed within the .NET platform, requiring users to have Microsoft .NET Framework 4.8 and Microsoft Visual Studio 2022 installed on their system.</li>
+        <li>Installation of MSSQL Server 2019 or higher is necessary for the database.</li>
+		<li>Windows Authentication should be enabled in SSMS</li>
+        <li>The "AttachDBFilename" option is applicable to Microsoft SQL databases within the project's App_Data directory, located in the website's root folder. The connection string is stored in the web.config file, facilitating easy testing. Additionally, users can utilize an SQL script file within the project's db folder by copying and applying it through Microsoft SQL Server Management Studio.</li>
+        <li>After setup, users can run the program either on an IIS server or directly through Microsoft Visual Studio 2022.</li>
+        <li>Running from Microsoft Visual Studio 2022 involves importing the source file and accessing the default.aspx file.</li>
+        <li>Upon opening the default.aspx file, users can click the Browser button to launch the website.</li>
+        <li>The website will load and display the menu items.</li>
+        <li>A default user 'admin@cyl.com' exists, with the password 'admin', granting administrative access upon logging in.</li>
+        <li>Alternatively, users can log in with customer rights, provided they sign up or register first.</li>
+        <li>Additional details are available in the accompanying snapshots.</li>
+    </ol>
+</body>
+</html>
